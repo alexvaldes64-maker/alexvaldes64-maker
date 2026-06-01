@@ -1,0 +1,189 @@
+<svg width="800" height="356" viewBox="0 0 800 356" xmlns="http://www.w3.org/2000/svg">
+<defs><style>
+.s{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+.m{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+.ht{opacity:0;animation:fu .4s ease .1s forwards}
+.hn{opacity:0;animation:fu .5s ease .2s forwards}
+.hb{opacity:0;animation:fu .4s ease .4s forwards}
+.hd{opacity:0;animation:fi .3s ease .7s forwards}
+.hul{animation:ul .5s ease .6s forwards}
+.cur{animation:bl 1s step-end infinite}
+.a1{animation:a1 14s ease-in-out forwards}
+.a2{animation:a2 14s ease-in-out forwards}
+.a3{animation:a3 14s ease-in-out forwards}
+.a4{animation:a4 14s ease-in-out forwards}
+.c1{opacity:0;animation:c1 14s ease forwards}
+.c2{opacity:0;animation:c2 14s ease forwards}
+.c3{opacity:0;animation:c3 14s ease forwards}
+.c4{opacity:0;animation:c4 14s ease forwards}
+.stk{opacity:0;animation:stk 14s ease forwards}
+@keyframes fu{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+@keyframes ul{from{width:0}to{width:255px}}
+@keyframes bl{0%,100%{opacity:1}50%{opacity:0}}
+@keyframes a1{
+  0%{opacity:0;transform:translate(-50px,286px)}
+  7%{opacity:1;transform:translate(-50px,286px)}
+  10%{transform:translate(10px,284px)}
+  14%{opacity:1;transform:translate(94px,286px)}
+  57%{opacity:1;transform:translate(94px,286px)}
+  60%{transform:translate(120px,284px)}
+  64%{opacity:0;transform:translate(860px,286px)}
+  100%{opacity:0;transform:translate(860px,286px)}
+}
+@keyframes a2{
+  0%{opacity:0;transform:translate(870px,286px)scale(-1,1)}
+  18%{opacity:0;transform:translate(870px,286px)scale(-1,1)}
+  19%{opacity:1;transform:translate(870px,286px)scale(-1,1)}
+  23%{transform:translate(530px,284px)scale(-1,1)}
+  25%{opacity:1;transform:translate(298px,286px)scale(-1,1)}
+  57%{opacity:1;transform:translate(298px,286px)scale(-1,1)}
+  61%{transform:translate(260px,284px)scale(-1,1)}
+  65%{opacity:0;transform:translate(-200px,286px)scale(-1,1)}
+  100%{opacity:0;transform:translate(-200px,286px)scale(-1,1)}
+}
+@keyframes a3{
+  0%{opacity:0;transform:translate(-50px,286px)}
+  29%{opacity:0;transform:translate(-50px,286px)}
+  30%{opacity:1;transform:translate(-50px,286px)}
+  34%{transform:translate(200px,284px)}
+  36%{opacity:1;transform:translate(502px,286px)}
+  57%{opacity:1;transform:translate(502px,286px)}
+  62%{transform:translate(560px,284px)}
+  66%{opacity:0;transform:translate(860px,286px)}
+  100%{opacity:0;transform:translate(860px,286px)}
+}
+@keyframes a4{
+  0%{opacity:0;transform:translate(870px,286px)scale(-1,1)}
+  40%{opacity:0;transform:translate(870px,286px)scale(-1,1)}
+  41%{opacity:1;transform:translate(870px,286px)scale(-1,1)}
+  44%{transform:translate(760px,284px)scale(-1,1)}
+  46%{opacity:1;transform:translate(706px,286px)scale(-1,1)}
+  57%{opacity:1;transform:translate(706px,286px)scale(-1,1)}
+  63%{transform:translate(740px,284px)scale(-1,1)}
+  67%{opacity:0;transform:translate(-200px,286px)scale(-1,1)}
+  100%{opacity:0;transform:translate(-200px,286px)scale(-1,1)}
+}
+@keyframes c1{0%,15%{opacity:0}16%,100%{opacity:1}}
+@keyframes c2{0%,26%{opacity:0}27%,100%{opacity:1}}
+@keyframes c3{0%,37%{opacity:0}38%,100%{opacity:1}}
+@keyframes c4{0%,47%{opacity:0}48%,100%{opacity:1}}
+@keyframes stk{0%,72%{opacity:0}80%,100%{opacity:1}}
+</style></defs>
+
+<rect width="800" height="356" fill="#fff"/>
+
+<text x="0" y="20" fill="#636c76" font-size="11" letter-spacing="2" class="s m ht">GTM + AI INTEGRATION · EL PASO TX → NEW YORK NY</text>
+<text x="0" y="70" fill="#1f2328" font-size="46" font-weight="800" letter-spacing="-1.5" class="s hn">Alex Valdes<tspan class="cur" font-size="42" dx="3" dy="-2">|</tspan></text>
+<rect x="0" y="78" height="3" width="0" rx="1.5" fill="#1f2328" class="hul"/>
+<text x="0" y="108" fill="#636c76" font-size="15" class="s hb">I build AI-native products and GTM systems from scratch.</text>
+<text x="0" y="128" font-size="15" class="s hb"><tspan fill="#636c76">Shipping </tspan><tspan fill="#1f2328" font-weight="600">nflncr</tspan><tspan fill="#636c76">, </tspan><tspan fill="#1f2328" font-weight="600">ResumeBuddy</tspan><tspan fill="#636c76">, </tspan><tspan fill="#1f2328" font-weight="600">rep_</tspan><tspan fill="#636c76"> — automations that actually work.</tspan></text>
+<line x1="0" y1="142" x2="800" y2="142" stroke="#d0d7de" stroke-width="1" class="hd"/>
+
+<g class="c1">
+  <rect x="0" y="152" width="188" height="88" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="14" y="173" fill="#1f2328" font-size="13" font-weight="600" class="s">RFP AI</text>
+  <text x="14" y="190" fill="#636c76" font-size="10" class="m">Internal AI platform.</text>
+  <text x="14" y="204" fill="#636c76" font-size="10" class="m">Automates RFP response</text>
+  <text x="14" y="218" fill="#636c76" font-size="10" class="m">generation end to end.</text>
+  <text x="14" y="232" fill="#636c76" font-size="10" class="m">Gemini API.</text>
+</g>
+<g class="c2">
+  <rect x="204" y="152" width="188" height="88" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="218" y="173" fill="#1f2328" font-size="13" font-weight="600" class="s">nflncr</text>
+  <text x="218" y="190" fill="#636c76" font-size="10" class="m">AI synthetic talent studio.</text>
+  <text x="218" y="204" fill="#636c76" font-size="10" class="m">4K UGC in under 4 hours.</text>
+  <text x="218" y="218" fill="#636c76" font-size="10" class="m">No human creators needed.</text>
+  <text x="218" y="232" fill="#636c76" font-size="10" class="m">getnflncr.com</text>
+</g>
+<g class="c3">
+  <rect x="408" y="152" width="188" height="88" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="422" y="173" fill="#1f2328" font-size="13" font-weight="600" class="s">ResumeBuddy</text>
+  <text x="422" y="190" fill="#636c76" font-size="10" class="m">AI career assistant.</text>
+  <text x="422" y="204" fill="#636c76" font-size="10" class="m">Resume analysis and role</text>
+  <text x="422" y="218" fill="#636c76" font-size="10" class="m">matching for students.</text>
+  <text x="422" y="232" fill="#636c76" font-size="10" class="m">Open source.</text>
+</g>
+<g class="c4">
+  <rect x="612" y="152" width="188" height="88" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="626" y="173" fill="#1f2328" font-size="13" font-weight="600" class="s">rep_</text>
+  <text x="626" y="190" fill="#636c76" font-size="10" class="m">iOS fitness app.</text>
+  <text x="626" y="204" fill="#636c76" font-size="10" class="m">WHOOP API + AI program</text>
+  <text x="626" y="218" fill="#636c76" font-size="10" class="m">gen. Expo / React Native.</text>
+  <text x="626" y="232" fill="#636c76" font-size="10" class="m">Personal daily driver.</text>
+</g>
+
+<g class="a1">
+  <rect x="-6" y="-39" width="12" height="3" fill="#2d1808"/>
+  <rect x="-9" y="-36" width="18" height="12" fill="#f0c090"/>
+  <rect x="-6" y="-30" width="3" height="3" fill="#1f2328"/>
+  <rect x="3" y="-30" width="3" height="3" fill="#1f2328"/>
+  <rect x="-9" y="-24" width="18" height="9" fill="#0969da"/>
+  <rect x="-9" y="-15" width="18" height="3" fill="#111"/>
+  <rect x="-6" y="-12" width="6" height="9" fill="#1e3a5f"/>
+  <rect x="0" y="-12" width="6" height="9" fill="#1e3a5f"/>
+  <rect x="-7" y="-3" width="7" height="3" fill="#0d1117"/>
+  <rect x="1" y="-3" width="7" height="3" fill="#0d1117"/>
+</g>
+<g class="a2">
+  <rect x="-6" y="-39" width="12" height="3" fill="#2d1808"/>
+  <rect x="-9" y="-36" width="18" height="12" fill="#f0c090"/>
+  <rect x="-6" y="-30" width="3" height="3" fill="#1f2328"/>
+  <rect x="3" y="-30" width="3" height="3" fill="#1f2328"/>
+  <rect x="-9" y="-24" width="18" height="9" fill="#8250df"/>
+  <rect x="-9" y="-15" width="18" height="3" fill="#111"/>
+  <rect x="-6" y="-12" width="6" height="9" fill="#1e3a5f"/>
+  <rect x="0" y="-12" width="6" height="9" fill="#1e3a5f"/>
+  <rect x="-7" y="-3" width="7" height="3" fill="#0d1117"/>
+  <rect x="1" y="-3" width="7" height="3" fill="#0d1117"/>
+</g>
+<g class="a3">
+  <rect x="-6" y="-39" width="12" height="3" fill="#2d1808"/>
+  <rect x="-9" y="-36" width="18" height="12" fill="#f0c090"/>
+  <rect x="-6" y="-30" width="3" height="3" fill="#1f2328"/>
+  <rect x="3" y="-30" width="3" height="3" fill="#1f2328"/>
+  <rect x="-9" y="-24" width="18" height="9" fill="#1f883d"/>
+  <rect x="-9" y="-15" width="18" height="3" fill="#111"/>
+  <rect x="-6" y="-12" width="6" height="9" fill="#1e3a5f"/>
+  <rect x="0" y="-12" width="6" height="9" fill="#1e3a5f"/>
+  <rect x="-7" y="-3" width="7" height="3" fill="#0d1117"/>
+  <rect x="1" y="-3" width="7" height="3" fill="#0d1117"/>
+</g>
+<g class="a4">
+  <rect x="-6" y="-39" width="12" height="3" fill="#2d1808"/>
+  <rect x="-9" y="-36" width="18" height="12" fill="#f0c090"/>
+  <rect x="-6" y="-30" width="3" height="3" fill="#1f2328"/>
+  <rect x="3" y="-30" width="3" height="3" fill="#1f2328"/>
+  <rect x="-9" y="-24" width="18" height="9" fill="#e16800"/>
+  <rect x="-9" y="-15" width="18" height="3" fill="#111"/>
+  <rect x="-6" y="-12" width="6" height="9" fill="#1e3a5f"/>
+  <rect x="0" y="-12" width="6" height="9" fill="#1e3a5f"/>
+  <rect x="-7" y="-3" width="7" height="3" fill="#0d1117"/>
+  <rect x="1" y="-3" width="7" height="3" fill="#0d1117"/>
+</g>
+
+<g class="stk">
+  <line x1="0" y1="295" x2="800" y2="295" stroke="#d0d7de" stroke-width="1"/>
+  <text x="0" y="311" fill="#9198a1" font-size="10" letter-spacing="2.5" class="m">STACK</text>
+  <rect x="0" y="318" width="58" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="29" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">Next.js</text>
+  <rect x="66" y="318" width="76" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="104" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">TypeScript</text>
+  <rect x="150" y="318" width="92" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="196" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">React Native</text>
+  <rect x="250" y="318" width="64" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="282" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">Supabase</text>
+  <rect x="322" y="318" width="56" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="350" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">Firebase</text>
+  <rect x="386" y="318" width="36" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="404" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">n8n</text>
+  <rect x="430" y="318" width="36" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="448" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">Clay</text>
+  <rect x="474" y="318" width="46" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="497" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">Figma</text>
+  <rect x="528" y="318" width="54" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="555" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">Framer</text>
+  <rect x="590" y="318" width="68" height="18" rx="9" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <text x="624" y="331" fill="#1f2328" font-size="10" text-anchor="middle" class="m">REST APIs</text>
+</g>
+</svg>
