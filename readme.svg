@@ -1,0 +1,180 @@
+<svg width="800" height="480" viewBox="0 0 800 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Syne:wght@700;800&amp;display=swap');
+
+      .bg { fill: #0d1117; }
+      .name { font-family: 'Syne', 'Arial Black', sans-serif; font-size: 38px; font-weight: 800; fill: #f0f6fc; letter-spacing: -1px; }
+      .tag { font-family: 'DM Mono', 'Courier New', monospace; font-size: 11px; fill: #8b949e; letter-spacing: 2px; }
+      .bio { font-family: 'DM Mono', 'Courier New', monospace; font-size: 12px; fill: #8b949e; line-height: 1.6; }
+      .bio-bold { font-family: 'DM Mono', 'Courier New', monospace; font-size: 12px; fill: #c9d1d9; }
+      .section { font-family: 'DM Mono', 'Courier New', monospace; font-size: 9px; fill: #6e7681; letter-spacing: 2.5px; }
+      .card-bg { fill: #161b22; rx: 6; }
+      .card-label { font-family: 'Syne', 'Arial Black', sans-serif; font-size: 12px; font-weight: 700; fill: #f0f6fc; }
+      .card-sub { font-family: 'DM Mono', 'Courier New', monospace; font-size: 9px; fill: #8b949e; }
+      .chip-bg { fill: none; stroke: #30363d; stroke-width: 0.5; }
+      .chip-text { font-family: 'DM Mono', 'Courier New', monospace; font-size: 9px; fill: #8b949e; }
+      .divider { stroke: #21262d; stroke-width: 0.5; }
+      .stat-num { font-family: 'Syne', 'Arial Black', sans-serif; font-size: 20px; font-weight: 800; fill: #f0f6fc; }
+      .stat-label { font-family: 'DM Mono', 'Courier New', monospace; font-size: 9px; fill: #6e7681; letter-spacing: 1.5px; }
+      .link { font-family: 'DM Mono', 'Courier New', monospace; font-size: 10px; fill: #8b949e; }
+      .dot-green { fill: #22c55e; }
+      .underline { fill: #f0f6fc; }
+      .currently-border { fill: none; stroke: #30363d; stroke-width: 0.5; }
+      .currently-text { font-family: 'DM Mono', 'Courier New', monospace; font-size: 10.5px; fill: #8b949e; }
+      .currently-bold { font-family: 'DM Mono', 'Courier New', monospace; font-size: 10.5px; fill: #c9d1d9; }
+
+      /* Animations */
+      .fade1 { opacity: 0; animation: fadeUp 0.5s ease 0.1s forwards; }
+      .fade2 { opacity: 0; animation: fadeUp 0.5s ease 0.2s forwards; }
+      .fade3 { opacity: 0; animation: fadeUp 0.5s ease 0.35s forwards; }
+      .fade4 { opacity: 0; animation: fadeIn 0.4s ease 0.5s forwards; }
+      .fade5 { opacity: 0; animation: fadeUp 0.5s ease 0.6s forwards; }
+      .fade6 { opacity: 0; animation: fadeUp 0.45s ease 0.65s forwards; }
+      .fade7 { opacity: 0; animation: fadeUp 0.45s ease 0.72s forwards; }
+      .fade8 { opacity: 0; animation: fadeUp 0.45s ease 0.79s forwards; }
+      .fade9 { opacity: 0; animation: fadeUp 0.45s ease 0.86s forwards; }
+      .fade10 { opacity: 0; animation: fadeUp 0.45s ease 0.9s forwards; }
+      .fade11 { opacity: 0; animation: fadeUp 0.45s ease 1.0s forwards; }
+      .fade12 { opacity: 0; animation: fadeUp 0.45s ease 1.05s forwards; }
+      .fade13 { opacity: 0; animation: fadeUp 0.45s ease 1.15s forwards; }
+      .fade14 { opacity: 0; animation: fadeUp 0.45s ease 1.25s forwards; }
+
+      .underline-draw { animation: drawLine 0.6s ease 0.7s forwards; }
+      .cursor { animation: blink 1s step-end infinite; }
+      .dot-pulse { animation: pulse 2s ease-in-out infinite; }
+
+      @keyframes fadeUp {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes drawLine {
+        from { width: 0; }
+        to { width: 220px; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes pulse {
+        0% { r: 4; opacity: 1; }
+        50% { r: 6; opacity: 0.4; }
+        100% { r: 4; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="480" class="bg" rx="12"/>
+
+  <!-- Tag line -->
+  <text x="48" y="52" class="tag fade1">GTM + AI INTEGRATION · EL PASO TX → NEW YORK NY</text>
+
+  <!-- Name -->
+  <text x="48" y="100" class="name fade2">Alex Valdes<tspan class="cursor" fill="#f0f6fc">|</tspan></text>
+
+  <!-- Underline animated -->
+  <rect x="48" y="108" height="3" width="0" rx="2" class="underline underline-draw"/>
+
+  <!-- Bio -->
+  <text x="48" y="138" class="bio fade3">I build AI-native products and GTM systems from scratch.</text>
+  <text x="48" y="154" class="bio fade3">Shipping <tspan class="bio-bold">nflncr</tspan>, <tspan class="bio-bold">ResumeBuddy</tspan>, <tspan class="bio-bold">rep_</tspan> and automations that actually work.</text>
+
+  <!-- Divider -->
+  <line x1="48" y1="172" x2="752" y2="172" class="divider fade4"/>
+
+  <!-- Currently block -->
+  <rect x="48" y="182" width="704" height="44" rx="6" class="currently-border fade10"/>
+  <circle cx="68" cy="204" r="4" class="dot-green dot-pulse fade10"/>
+  <text x="84" y="199" class="currently-bold fade10">Currently:</text>
+  <text x="148" y="199" class="currently-text fade10">Handle (usehandle.ai) biz-dev sprint — a16z-backed quoting automation for brokers.</text>
+  <text x="84" y="216" class="currently-text fade10">Building <tspan class="currently-bold">nflncr</tspan>, an AI synthetic talent studio for brand-ready 4K UGC in under 4 hours.</text>
+
+  <!-- BUILT section -->
+  <text x="48" y="252" class="section fade5">WHAT I'VE BUILT</text>
+
+  <!-- Card 1: RFP AI -->
+  <rect x="48" y="262" width="160" height="72" rx="6" fill="#161b22" class="fade6"/>
+  <text x="62" y="282" class="card-label fade6">RFP AI</text>
+  <text x="62" y="297" class="card-sub fade6">Internal AI platform.</text>
+  <text x="62" y="310" class="card-sub fade6">Automates RFP response</text>
+  <text x="62" y="323" class="card-sub fade6">generation end to end.</text>
+
+  <!-- Card 2: nflncr -->
+  <rect x="220" y="262" width="160" height="72" rx="6" fill="#161b22" class="fade7"/>
+  <text x="234" y="282" class="card-label fade7">nflncr</text>
+  <text x="234" y="297" class="card-sub fade7">AI synthetic talent studio.</text>
+  <text x="234" y="310" class="card-sub fade7">4K UGC in &lt;4 hours.</text>
+  <text x="234" y="323" class="card-sub fade7">No human creators needed.</text>
+
+  <!-- Card 3: ResumeBuddy -->
+  <rect x="392" y="262" width="160" height="72" rx="6" fill="#161b22" class="fade8"/>
+  <text x="406" y="282" class="card-label fade8">ResumeBuddy</text>
+  <text x="406" y="297" class="card-sub fade8">AI career assistant.</text>
+  <text x="406" y="310" class="card-sub fade8">Resume analysis, role</text>
+  <text x="406" y="323" class="card-sub fade8">matching + tracking.</text>
+
+  <!-- Card 4: rep_ -->
+  <rect x="564" y="262" width="160" height="72" rx="6" fill="#161b22" class="fade9"/>
+  <text x="578" y="282" class="card-label fade9">rep_</text>
+  <text x="578" y="297" class="card-sub fade9">iOS fitness app.</text>
+  <text x="578" y="310" class="card-sub fade9">WHOOP API + AI program</text>
+  <text x="578" y="323" class="card-sub fade9">gen. Expo / React Native.</text>
+
+  <!-- Stack chips -->
+  <text x="48" y="360" class="section fade11">STACK</text>
+
+  <!-- Row 1 chips -->
+  <rect x="48" y="368" width="66" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="81" y="381" text-anchor="middle" class="chip-text fade12">Next.js</text>
+
+  <rect x="122" y="368" width="76" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="160" y="381" text-anchor="middle" class="chip-text fade12">TypeScript</text>
+
+  <rect x="206" y="368" width="90" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="251" y="381" text-anchor="middle" class="chip-text fade12">React Native</text>
+
+  <rect x="304" y="368" width="62" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="335" y="381" text-anchor="middle" class="chip-text fade12">Supabase</text>
+
+  <rect x="374" y="368" width="54" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="401" y="381" text-anchor="middle" class="chip-text fade12">Firebase</text>
+
+  <rect x="436" y="368" width="36" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="454" y="381" text-anchor="middle" class="chip-text fade12">n8n</text>
+
+  <rect x="480" y="368" width="36" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="498" y="381" text-anchor="middle" class="chip-text fade12">Clay</text>
+
+  <rect x="524" y="368" width="46" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="547" y="381" text-anchor="middle" class="chip-text fade12">Figma</text>
+
+  <rect x="578" y="368" width="52" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="604" y="381" text-anchor="middle" class="chip-text fade12">Framer</text>
+
+  <rect x="638" y="368" width="70" height="18" rx="9" class="chip-bg fade12"/>
+  <text x="673" y="381" text-anchor="middle" class="chip-text fade12">REST APIs</text>
+
+  <!-- Divider -->
+  <line x1="48" y1="400" x2="752" y2="400" class="divider fade4"/>
+
+  <!-- Stats -->
+  <text x="48" y="425" class="stat-num fade13">4</text>
+  <text x="48" y="438" class="stat-label fade13">SHIPPED PRODUCTS</text>
+
+  <text x="210" y="425" class="stat-num fade13">2×</text>
+  <text x="210" y="438" class="stat-label fade13">HACKATHON FINALIST</text>
+
+  <text x="380" y="425" class="stat-num fade13">BBA</text>
+  <text x="380" y="438" class="stat-label fade13">MARKETING · UTEP</text>
+
+  <!-- Links -->
+  <text x="48" y="462" class="link fade14">✉ alexvaldes64@gmail.com</text>
+  <text x="270" y="462" class="link fade14">⟶ getnflncr.com</text>
+  <text x="420" y="462" class="link fade14">⟶ resume-buddy-xi.vercel.app</text>
+  <text x="640" y="462" class="link fade14">in alexvaldes14</text>
+</svg>

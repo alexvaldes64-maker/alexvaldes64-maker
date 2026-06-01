@@ -1,16 +1,22 @@
-## Hi there 👋
+<div align="center">
+  <img src="./readme.svg" alt="Alex Valdes – GTM + AI Integration" width="800"/>
+</div>
 
-<!--
-**alexvaldes64-maker/alexvaldes64-maker** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| | |
+|---|---|
+| **RFP AI** | Internal AI platform automating RFP response generation end to end |
+| **nflncr** | AI synthetic talent studio — 4K UGC in under 4 hours · [getnflncr.com](https://getnflncr.com) |
+| **ResumeBuddy** | AI career assistant for students and grads · [resumebuddy](https://resume-buddy-xi.vercel.app) |
+| **rep_** | iOS fitness app with WHOOP API + AI program generation |
+
+### Stack
+
+`Next.js` `TypeScript` `React Native` `Supabase` `Firebase` `n8n` `Clay` `Figma` `Framer` `REST APIs` `HubSpot` `Adobe Suite`
+
+---
+
+<sub>GTM + AI Integration · El Paso TX → New York NY · alexvaldes64@gmail.com</sub>
